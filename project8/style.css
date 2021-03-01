@@ -1,0 +1,96 @@
+#cnvs{
+    width: 50%;
+    height: calc(100vh - 250px);
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+.cnvs{
+    text-align: center;
+    width:100%;
+}
+.btns{
+    width:100%;
+    margin-top: 10px;
+}
+.point{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:15%;
+    text-align:center;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+}
+.point:hover{
+    background-color: darkseagreen;
+}
+.line{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:15%;
+    text-align:center;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    margin-left:16.6%;
+}
+.line:hover{
+    background-color: darkseagreen;
+}
+
+.circle{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:15%;
+    text-align:center;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    margin-left:33.2%;
+}
+.circle:hover{
+    background-color: darkseagreen;
+}
+.oval{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:15%;
+    text-align:center;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    margin-left:49.8%;
+}
+.oval:hover{
+    background-color: darkseagreen;
+}
+.rectangle{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:15%;
+    text-align:center;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    margin-left:66.4%;
+}
+.rectangle:hover{
+    background-color: darkseagreen;
+}
+.clear{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:15%;
+    text-align:center;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    margin-left:83%;
+}
+.clear:hover{
+    background-color: darkseagreen;
+}
+.active{
+    background-color: khaki;
+}

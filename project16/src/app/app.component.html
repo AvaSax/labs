@@ -1,0 +1,77 @@
+
+<app-header></app-header>
+
+
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container" *ngIf="isLoaded">
+    <div class="main" id="main">
+        
+        <div class="mainpage">
+            <app-mainpage></app-mainpage>
+        </div>
+        <div class="access">
+            <p>If you need to access workers database, please press this</p>
+            <button class="btn" id="btn1" (click)="change()">BUTTON</button>
+        </div>
+    </div>
+
+    <div class="second" id="second">
+        <div class="return">
+            <p>If you want to return to information page, please press this</p>
+            <button class="btn" id="btn2" (click)="change()">BUTTON</button>
+        </div>
+
+        <app-workers></app-workers>
+
+        <div class="title">
+            <h1>{{ title }}</h1>
+        </div>
+        <div class="container">
+            <app-workeradd (addWorker)="onAddWorker($event)"></app-workeradd>
+            <div class="filter">
+                <input type="text" class="form-control" placeholder="Name and surname filter" [(ngModel)]="filter">
+            </div>
+            <app-workerlist [title]="'IT Department'"
+                [workers]="getByType(myType.IT_Department) | pipe:filter"
+                (delete)="onDeleteWorker($event)" (save)="onSaveWorker($event)"></app-workerlist>
+            <app-workerlist [title]="'Sales Department'"
+                [workers]="getByType(myType.Sales_Department) | pipe:filter"
+                (delete)="onDeleteWorker($event)" (save)="onSaveWorker($event)"></app-workerlist>
+            <app-workerlist [title]="'Delivery Department'"
+                [workers]="getByType(myType.Delivery_Department) | pipe:filter"
+                (delete)="onDeleteWorker($event)" (save)="onSaveWorker($event)"></app-workerlist>
+            <app-workerlist [title]="'Law Department'"
+                [workers]="getByType(myType.Law_Department) | pipe:filter"
+                (delete)="onDeleteWorker($event)" (save)="onSaveWorker($event)"></app-workerlist>
+        </div>
+    </div>
+</div> -->

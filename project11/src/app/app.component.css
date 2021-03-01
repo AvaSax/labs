@@ -1,0 +1,36 @@
+.green {
+    width: 180px;
+    height: 180px;
+    margin: 5px 5px;
+    color: white;
+    background: green;
+}
+
+.red {
+    width: 180px;
+    height: 180px;
+    margin: 5px 5px;
+    color: white;
+    background: red;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.del {
+    background: white;
+    font-weight: bold;
+}
+
+.add {
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+}

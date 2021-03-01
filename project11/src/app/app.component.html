@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-3" *ngFor="let det of dets">
+      <ng-container>
+        <div [ngClass]="det.status?'card green':'card red' ">
+          <div class="card-header">
+            <div class="header"> {{det.id}}</div>
+          </div>
+          <div class="card-body">
+            <div class="card-title">{{det.name}}</div>
+            <button type="button" class="btn del" (click)="Delete(det.id)">DELETE</button>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-2 col-lg-4">
+      <button type="button" class="btn add" (click)="Add()">ADD NEW SENSOR</button>
+    </div>
+  </div>
+</div>

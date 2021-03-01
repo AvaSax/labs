@@ -1,0 +1,15 @@
+{
+  "workers": [
+    {
+      "id": 4,
+      "name": "d",
+      "surname": "d",
+      "middlename": "d",
+      "phone": "85555555555",
+      "email": "d@d.d",
+      "birth": "10/10/2002",
+      "age": 18,
+      "type": 3
+    }
+  ]
+}
